@@ -1,17 +1,18 @@
 # Projektin aloitus
 
+Huom! ohjeessa mainittu group_? on ryhmästä riippuen group_1, group_2, jne
 <ol>
 <li>Yksi ryhmän jäsenistä kloonaa opettajan luoman Repon ja tekee seuraavat toimet</li>
 <ol>
 <li>Luo branchin nimeltä **initialize** </li>
 <li>Tekee kansion nimeltään **backend** </li>
-<li>Suoritta backend-kansiossa komennot 
+<li>Suorittaa backend-kansiossa komennot 
 <ul>
 <li>npm init</li>
 <li>npm install express</li>
 </ul>
 </li>
-<li>Luo Qt:lla Qt-Widget sovelluksen ja antaa sille nimeksi **bank-automat**. Kääntää sovelluksen ja tarkistaa että build-kansio on ilmestynyt kansioon bank-automat</li>
+<li>Luo Qt:lla Qt-Widget sovelluksen kansioon **group_?** ja antaa sille nimeksi **bank-automat**. Kääntää sovelluksen ja tarkistaa että build-kansio on ilmestynyt kansioon bank-automat</li>
 <li>Luo kansion group_? juureen tiedoston nimeltään **.gitignore** ja kirjoittaa sinne rivit 
 <pre>
 backend/node_modules/
@@ -32,3 +33,5 @@ bank-automat/*.user
 </li>
 <li>Tämän jälkeen jokainen luo oman branchin ja voi ruveta koodaamaan</li>
 </ol>
+
+**Huom!** Kaikki Git komennot on annettava kansion group_? juuressa.
