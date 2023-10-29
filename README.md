@@ -8,8 +8,8 @@ Huom! ohjeessa mainittu group_? on ryhmästä riippuen group_1, group_2, jne
 <li>Tekee kansion nimeltään **backend** </li>
 <li>Suorittaa backend-kansiossa komennot 
 <ul>
-<li>npm init</li>
-<li>npm install express</li>
+<li>npx express-generator --no-view</li>
+<li>npm install mysql</li>
 </ul>
 </li>
 <li>Luo Qt:lla Qt-Widget sovelluksen kansioon **group_?** ja antaa sille nimeksi **bank-automat**. Kääntää sovelluksen ja tarkistaa että build-kansio on ilmestynyt kansioon bank-automat</li>
