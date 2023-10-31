@@ -9,7 +9,7 @@ Huom! ohjeessa mainittu group_? on ryhmästä riippuen group_1, group_2, jne
 <li>Suorittaa backend-kansiossa komennot 
 <ul>
 <li>npx express-generator --no-view</li>
-<li>npm install mysql</li>
+<li>npm install mysql2</li>
 </ul>
 </li>
 <li>Luo Qt:lla Qt-Widget sovelluksen kansioon <b>group_?</b> ja antaa sille nimeksi <b>bank-automat</b>. Kääntää sovelluksen ja tarkistaa että build-kansio on ilmestynyt kansioon bank-automat</li>
